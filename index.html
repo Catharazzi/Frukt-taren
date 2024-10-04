@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruktätaren</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="backgroundMusic" src="background-music.mp3" loop></audio> <!-- Byt ut 'background-music.mp3' mot din ljudfil -->
+
+    <h1>Fruktätaren</h1>
+    <div id="playerNameInput">
+        <label for="playerName">Spelarnamn:</label>
+        <input type="text" id="playerName" placeholder="Ange ditt namn">
+        <button onclick="startGame()">Starta Spelet</button>
+    </div>
+    <div id="scoreBoard" style="display: none;">
+        <div id="score">Poäng: 0</div>
+        <div id="highScore">Högsta Poäng: 0</div>
+        <div id="gameArea">
+            <img id="net" src="net.png" alt="Net"> <!-- Byt ut 'net.png' mot din bildfil -->
+        </div>
+    </div>
+    <audio id="backgroundMusic" src="background-music.mp3" loop></audio> <!-- Byt ut 'background-music.mp3' mot din ljudfil -->
+    <script src="script.js"></script>
+</body>
+</html>
